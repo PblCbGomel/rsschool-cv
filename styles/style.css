@@ -14,18 +14,18 @@ body {
 }
 
 .center {
-    max-width: 980px;
+    max-width: 1080px;
     margin: auto;
 }
 
 .block-gray {
     background-color: #504F4F;
-    height: 300px;
+    height: 400px;
 }
 
 .block-light-gray {
     background-color: #676565;
-    height: 300px;
+    height: 400px;
 }
 
 .block-gray, .block-light-gray {
@@ -37,11 +37,29 @@ header {
     background-color: #2C2C2C;
     width: 100%;
     height: 120px;
-    padding: 0px 50px;
 }
 
-.header {
+nav {
+    padding: 0px 30px;
+}
+
+nav ul {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+nav ul .main-li {
+    font-size: 54px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
 }
 
 main {
