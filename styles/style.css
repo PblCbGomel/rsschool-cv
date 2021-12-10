@@ -78,6 +78,9 @@ h1 {
 
 h2 {
     font-size: 64px;
+}
+
+.my-name h2 {
     padding-top: 20px;
 }
 
@@ -92,7 +95,9 @@ img {
     float: right;
 }
 
-
+.about-me {
+    font-size: 24px;
+}
 
 footer {
     background-color: #2C2C2C;
