@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,51 +34,58 @@
         </header>
         <main>
             <div class="center">
-                <section class="block-gray">                  
-                    <div class="my-name">
-                        <h1>Shevtsov Evgeniy</h1> 
-                        <h2>18 y.o. Minsk, Belarus</h2>
-                    </div> 
-                    <img src="./images/photo.jpg" height="300px" width="300px" alt="My photo">
-                </section>
-                <section class="block-light-gray about-me">
-                    <h2>About me:</h2>
-                    <p>I live in Minsk, but I used to live in Gomel. I'm graduated from high school and at the moment 
-                    I’m studying in the second year of the Faculty of Applied Mathematics and Computer Sciences.
-                    Of all the directions of IT I like front-end. I hope to do exactly what brings pleasure.
-                    Also, I do projects to improve the quality of education in my faculty. For example, I do extra couples with freshmen 
-                    and I create a methodical "Google Disk" in various disciplines.</p>
-                </section>
-                <section class="block-gray my-skills">
-                    <h2 class="skills">My skills:</h2>
-                    <h2 class="skills">Code example:</h2>
-                    <div class="skills">
-                        <ul>
-                            <li>basic html & CSS & JS</li>
-                            <li>basic Java</li>
-                            <li>basic C++</li>
-                            <li>some Photoshop&Figma experience</li>
-                            <li>good communicative qualities</li>
-                        </ul>
-                    </div>
-                    <code class="code-skills">
-                        var countBits = function(n) {<br>
-                        &nbsp;let counter = 0<br>
-                        &nbsp;while(n != 0) {<br>
-                            &nbsp;&nbsp;counter += (n % 2 == 1)<br>
-                            &nbsp;&nbsp;n = Math.trunc(n / 2)<br>
-                            &nbsp;}<br>
-                            &nbsp;return counter<br>
-                        }</code>
-                </section>
-                <section class="block-light-gray"></section>
-                <section class="block-gray"></section>
+                <div class="block-gray">
+                    <section>   
+                        <div class="my-name">
+                            <h1>Shevtsov Evgeniy</h1> 
+                            <h2>18 y.o. Minsk, Belarus</h2>   
+                        </div>                 
+                        <img src="./images/photo.jpg" height="300" width="300" alt="My photo">
+                    </section>
+                </div>
+                <div class="block-light-gray">
+                    <section class="about-me">
+                        <h2>About me:</h2>
+                        <p>I live in Minsk, but I used to live in Gomel. I'm graduated from high school and at the moment 
+                        I’m studying in the second year of the Faculty of Applied Mathematics and Computer Sciences.
+                        Of all the directions of IT I like front-end. I hope to do exactly what brings pleasure.
+                        Also, I do projects to improve the quality of education in my faculty. For example, I do extra couples with freshmen 
+                        and I create a methodical "Google Disk" in various disciplines.</p>
+                    </section>
+                </div>
+                <div class="block-gray">
+                    <section class="my-skills">
+                        <h2 class="skills">My skills:</h2>
+                        <h2 class="skills">Code example:</h2>
+                        <div class="skills">
+                            <ul>
+                                <li>basic html & CSS & JS</li>
+                                <li>basic Java</li>
+                                <li>basic C++</li>
+                                <li>some Photoshop&Figma experience</li>
+                                <li>good communicative qualities</li>
+                            </ul>
+                        </div>
+                        <code class="code-skills">
+                            var countBits = function(n) {<br>
+                            &nbsp;let counter = 0<br>
+                            &nbsp;while(n != 0) {<br>
+                                &nbsp;&nbsp;counter += (n % 2 == 1)<br>
+                                &nbsp;&nbsp;n = Math.trunc(n / 2)<br>
+                                &nbsp;}<br>
+                                &nbsp;return counter<br>
+                        }
+                        </code>
+                    </section>
+                </div>
+                <!--<section class="block-light-gray"></section>
+                <section class="block-gray"></section>-->
             </div>
         </main>   
-        <footer>
+        <!--<footer>
             <div class="center">
                 
             </div>
-        </footer>
+        </footer>-->
     </body>
 </html>
