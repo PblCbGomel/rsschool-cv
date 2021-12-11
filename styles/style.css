@@ -18,7 +18,6 @@ body {
     margin: auto;
 }
 
-
 .block-gray {
     background-color: #504F4F;
 }
@@ -30,6 +29,7 @@ body {
 .block-gray, .block-light-gray {
     height: 300px;
     padding: 50px 50px;
+    border: 1px solid black;
 }
 
 header {
@@ -37,6 +37,7 @@ header {
     background-color: #2C2C2C;
     width: 100%;
     height: 120px;
+    border: 1px solid black;
 }
 
 nav {
