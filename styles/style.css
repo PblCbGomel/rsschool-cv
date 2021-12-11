@@ -99,6 +99,34 @@ img {
     font-size: 24px;
 }
 
+.my-skills {
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-skills ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.skills {
+    width: 50%;
+}
+
+.code-skills {
+    width: 40%;
+}
+
+code {
+    padding-top: 20px;
+    font-size: 18px;
+    background-color: rgba(66, 66, 66, 0.6);
+    height: 180px;
+    margin-left: -20px;
+    padding: 15px;
+}
+
 footer {
     background-color: #2C2C2C;
     width: 100%;

@@ -11,7 +11,7 @@ Of all the directions of IT I like front-end. I hope to do exactly what brings p
 Also, I do projects to improve the quality of education in my faculty. For example, I do extra couples with freshmen.
 
 ## Skills
-* basis html & CSS & JS
+* basic html & CSS & JS
 * basis Java
 * basis Python
 * basis C++
