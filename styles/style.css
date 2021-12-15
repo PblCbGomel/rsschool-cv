@@ -116,7 +116,7 @@ section {
     list-style: none;
 }
 
-.skills {
+.flex-block {
     width: 50%;
 }
 
@@ -154,6 +154,22 @@ code {
 
 .courses ul {
     width: 70%;
+}
+
+.languages {
+    font-size: 28px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.languages ul li {
+    padding-top: 10px;
 }
 
 footer {
