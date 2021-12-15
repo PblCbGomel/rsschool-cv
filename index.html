@@ -14,19 +14,19 @@
                 <nav>
                     <ul>
                         <li class="main-li">
-                            RS-SCHOOL CV
+                            <a href="#">RS-SCHOOL CV</a>
                         </li>
                         <li>
-                            About<br>me
+                            <a href="#about">About<br>me</a>
                         </li>
                         <li>
-                            My<br>skills
+                            <a href="#my-skills">My<br>skills</a>
                         </li>
                         <li>
-                            Code<br>example
+                            <a href="#courses">My<br>courses</a>
                         </li>
                         <li>
-                            My<br>Contacts
+                            <a href="#contacts">My<br>Contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -34,25 +34,23 @@
         </header>
         <main>
             <div class="center">
-                <div class="block-gray">
-                    <section>   
-                        <div class="my-name">
-                            <h1>Shevtsov Evgeniy</h1> 
-                            <h2>18 y.o. Minsk, Belarus</h2>   
-                        </div>                 
-                        <img src="./images/photo.jpg" height="300" width="300" alt="My photo">
-                    </section>
-                </div>
-                <div class="block-light-gray">
-                    <section class="about-me">
-                        <h2>About me:</h2>
-                        <p>I live in Minsk, but I used to live in Gomel. I'm graduated from high school and at the moment 
-                        I’m studying in the second year of the Faculty of Applied Mathematics and Computer Sciences.
-                        Of all the directions of IT I like front-end. I hope to do exactly what brings pleasure.
-                        Also, I do projects to improve the quality of education in my faculty. For example, I do extra couples with freshmen 
-                        and I create a methodical "Google Disk" in various disciplines.</p>
-                    </section>
-                </div>
+                <section class="block-gray">   
+                    <div class="my-name">
+                        <h1>Shevtsov Evgeniy</h1> 
+                        <h2>18 y.o. Minsk, Belarus</h2>   
+                    </div>                 
+                    <img src="./images/photo.jpg" height="300" width="300" alt="My photo">
+                </section>
+                <div id="about"></div>
+                <section class="about-me block-light-gray">
+                    <h2>About me:</h2>
+                    <p>I live in Minsk, but I used to live in Gomel. I'm graduated from high school and at the moment 
+                    I’m studying in the second year of the Faculty of Applied Mathematics and Computer Sciences.
+                    Of all the directions of IT I like front-end. I hope to do exactly what brings pleasure.
+                    Also, I do projects to improve the quality of education in my faculty. For example, I do extra couples with freshmen 
+                    and I create a methodical "Google Disk" in various disciplines.</p>
+                </section>    
+                <div id="my-skills"></div>
                 <section class="block-gray my-skills">
                     <h2 class="flex-block">My skills:</h2>
                     <h2 class="flex-block">Code example:</h2>
@@ -76,6 +74,7 @@
                     }
                     </code>
                 </section>
+                <div id="courses"></div>
                 <section class="block-light-gray courses">
                     <h2 class="courses-block">Courses:</h2>
                     <ul class="courses-block">
@@ -87,6 +86,7 @@
                         <img src="./certificates/ITEA.png" alt="Certificate ITEA" height="360" width="250">
                     </div>
                 </section>
+                <div id="contacts"></div>
                 <section class="block-gray languages">
                     <h2 class="flex-block">My contacts</h2>
                     <h2 class="flex-block">Languages</h2>
