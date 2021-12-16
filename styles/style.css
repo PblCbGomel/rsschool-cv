@@ -41,50 +41,28 @@ header {
     border: 1px solid black;
 }
 
-a {
+a.navigation {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+a.navigation:hover {
     animation: pulse 2s linear infinite;
     color: rgb(209, 209, 209);
 }
 
-@keyframes pulse {
-    0% {
-        text-shadow: yellow 0 0 0px,
-    }
-
-    50% {
-        text-shadow: yellow 2px 8px 12px,
-        yellow -2px -8px 12px;
-    }
-
-    100% {
-        text-shadow: yellow 0 0 0px,
-    }
-}
-
-
-a:active {
-    animation: little-pulse 1s linear infinite;
+a.navigation:active {
+    animation: little-pulse 1.5s linear infinite;
     color: rgb(209, 209, 209);
 }
 
-@keyframes little-pulse {
-    0% {
-        text-shadow: yellow 0 0 0px,
-    }
+a.project {
+    text-decoration: none;
+    color: white;
+}
 
-    50% {
-        text-shadow: yellow 1px 4px 1px,
-        yellow -1px -4px 1px;
-    }
-
-    100% {
-        text-shadow: yellow 0 0 0px,
-    }
+a.project:hover {
+    animation: project-pulse 1s linear infinite;
 }
 
 #about, #my-skills, #courses, #contacts {
@@ -243,3 +221,47 @@ footer {
     font-size: 24px;
 }
 
+@keyframes pulse {
+    0% {
+        text-shadow: yellow 0 0 0px,
+    }
+
+    50% {
+        text-shadow: yellow 2px 8px 12px,
+        yellow -2px -8px 12px;
+    }
+
+    100% {
+        text-shadow: yellow 0 0 0px,
+    }
+}
+
+@keyframes little-pulse {
+    0% {
+        text-shadow: yellow 0 0 0px,
+    }
+
+    50% {
+        text-shadow: yellow 1px 4px 1px,
+        yellow -1px -4px 1px;
+    }
+
+    100% {
+        text-shadow: yellow 0 0 0px,
+    }
+}
+
+@keyframes project-pulse {
+    0% {
+        text-shadow: yellow 0 0 0px,
+    }
+
+    30% {
+        text-shadow: yellow 1px 2px 8px,
+        yellow -1px -4px 1px;
+    }
+
+    70% {
+        text-shadow: yellow 0 0 0px,
+    }
+}
