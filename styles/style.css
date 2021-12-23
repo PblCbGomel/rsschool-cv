@@ -177,14 +177,11 @@ code {
     margin: 0;
     list-style: none;
     text-align: right;
+    width: 70%;
 }
 
 .courses h2 {
     width: 30%;
-}
-
-.courses ul {
-    width: 70%;
 }
 
 .contact-languages {
