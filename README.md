@@ -1,3 +1,3 @@
-# Markdown & Git
+# HTML, CSS & Git Basics
 ### Link:
-https://pblcbGomel.github.io/rsschool-cv/cv
+https://PblCbGomel.github.io/rsschool-cv/
