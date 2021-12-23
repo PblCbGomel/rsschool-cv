@@ -187,19 +187,19 @@ code {
     width: 70%;
 }
 
-.languages {
+.contact-languages {
     font-size: 28px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.languages ul {
+.contact-languages ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.languages ul li {
+.contact-languages ul li {
     padding-top: 10px;
 }
 
