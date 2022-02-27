@@ -220,14 +220,19 @@ code {
 .all-projects {
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
     justify-content: space-around;
 =======
     justify-content: space-between;
 >>>>>>> 3ea8972 (feat: add structure of prijects block)
+=======
+    justify-content: space-around;
+>>>>>>> 8779680 (feat: add projects links)
     flex-wrap: wrap;
 }
 
 .project-link {
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 460px;
     height: 320px;
@@ -294,6 +299,68 @@ code {
     height: 250px;
     margin-top: 20px;
 >>>>>>> 3ea8972 (feat: add structure of prijects block)
+=======
+    width: 460px;
+    height: 320px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.project-link a {
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.projects-link-name {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    background-color: rgba(201, 201, 201, 0.75);
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.projects-link-name:hover {
+    opacity: 1;
+}
+
+.tic-tac-toe {
+    background-image: url(../images/projects/tic-tac-toe.PNG);
+}
+
+.random-jokes {
+    background-image: url(../images/projects/random-jokes.PNG);
+}
+
+.music-player {
+    background-image: url(../images/projects/music-player.PNG);
+}
+
+.portfolio-rss {
+    background-image: url(../images/projects/portfolio.PNG);
+}
+
+.project-name {
+    width: 80%;
+}
+
+.about-project {
+    width: 80%;
+    padding: 0;
+    margin: 10px 0 0;
+    font-size: 20px;
+>>>>>>> 8779680 (feat: add projects links)
 }
 
 .contact-languages {
