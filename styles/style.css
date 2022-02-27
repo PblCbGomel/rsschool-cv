@@ -65,7 +65,7 @@ a.project:hover {
     animation: project-pulse 1s linear infinite;
 }
 
-#about, #my-skills, #courses, #contacts {
+#about, #my-skills, #courses, #contacts, #projects {
     padding-top: 100px;
     margin-top: -100px;
 }
