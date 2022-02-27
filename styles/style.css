@@ -28,7 +28,6 @@ body {
 }
 
 .block-gray, .block-light-gray {
-    height: 300px;
     padding: 50px 50px;
     border: 1px solid black;
 }
@@ -113,6 +112,10 @@ h2 {
 
 img {
     float: right;
+}
+
+.main-block {
+    height: 300px;
 }
 
 .my-name h2 {
@@ -206,16 +209,23 @@ code {
 .projects {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.projects h2 {
+    text-align: center;
 }
 
 .all-projects {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-link {
     width: 300px;
     height: 250px;
+    margin-top: 20px;
 }
 
 .contact-languages {
