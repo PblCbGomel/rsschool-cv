@@ -15,8 +15,11 @@
         max-width: 720px;
     }
 
-    .block-gray, .block-light-gray {
+    .main-block {
         height: 200px;
+    }
+
+    .block-gray, .block-light-gray {
         padding: 30px 40px;
     }
 
@@ -113,5 +116,35 @@
     .footer-items p {
         text-align: center;
         font-size: 16px;
+    }
+
+    .all-certificates {
+        height: 280px;
+    }
+    
+    .certificate {
+        width: 200px;
+        height: 280px;
+    }
+
+    .project-link {
+        width: 280px;
+        height: 200px;
+        margin-top: 16px;
+    }
+    
+    .project-link a {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .about-project {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .projects-link-name {
+        opacity: 1;
+        background-color: rgba(201, 201, 201, 0.7);
     }
 }
