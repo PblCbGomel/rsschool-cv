@@ -207,6 +207,11 @@ code {
     background-image: url(../certificates/ITEA.png);
 }
 
+.certificate-RSS0 {
+    background-image: url(../certificates/RSS0.png);
+    background-position: center;
+}
+
 .projects {
     display: flex;
     justify-content: center;

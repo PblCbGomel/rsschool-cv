@@ -8,7 +8,6 @@
     }
 
     .block-gray, .block-light-gray {
-        height: 150px;
         padding: 18px 28px;
     }
 
@@ -18,6 +17,10 @@
 
     main {
         padding-top: 0px;
+    }
+
+    .main-block {
+        height: 140px;
     }
 
     h1 {
@@ -89,5 +92,35 @@
     .footer-items p {
         text-align: center;
         font-size: 12px;
+    }
+
+    .all-certificates {
+        height: 220px;
+    }
+    
+    .certificate {
+        width: 140px;
+        height: 220px;
+    }
+
+    .project-link {
+        width: 240px;
+        height: 160px;
+        margin-top: 14px;
+    }
+    
+    .project-link a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .about-project {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .projects-link-name {
+        opacity: 1;
+        background-color: rgba(201, 201, 201, 0.7);
     }
 }
