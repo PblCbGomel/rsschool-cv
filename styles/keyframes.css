@@ -1,0 +1,44 @@
+@keyframes pulse {
+    0% {
+        text-shadow: yellow 0 0 0px,
+    }
+
+    50% {
+        text-shadow: yellow 2px 8px 12px,
+        yellow -2px -8px 12px;
+    }
+
+    100% {
+        text-shadow: yellow 0 0 0px,
+    }
+}
+
+@keyframes little-pulse {
+    0% {
+        text-shadow: yellow 0 0 0px,
+    }
+
+    50% {
+        text-shadow: yellow 1px 4px 1px,
+        yellow -1px -4px 1px;
+    }
+
+    100% {
+        text-shadow: yellow 0 0 0px,
+    }
+}
+
+@keyframes project-pulse {
+    0% {
+        text-shadow: yellow 0 0 0px,
+    }
+
+    30% {
+        text-shadow: yellow 1px 2px 8px,
+        yellow -1px -4px 1px;
+    }
+
+    70% {
+        text-shadow: yellow 0 0 0px,
+    }
+}
