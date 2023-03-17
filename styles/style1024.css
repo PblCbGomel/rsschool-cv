@@ -1,0 +1,150 @@
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    a.navigation:hover {
+        animation: none;
+    }
+    
+    a.navigation:active {
+        animation: none;
+    }
+
+    a.project:hover {
+        animation: none;
+    }
+
+    .center {
+        max-width: 720px;
+    }
+
+    .main-block {
+        height: 200px;
+    }
+
+    .block-gray, .block-light-gray {
+        padding: 30px 40px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+
+    nav {
+        padding: 0px 10px;
+    }
+
+    #about, #my-skills, #courses, #contacts {
+        padding-top: 80px;
+        margin-top: -80px;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    nav ul .main-li {
+        font-size: 44px;
+    }
+
+    h1 {
+        font-size: 54px;
+        padding-top: 20px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+
+    .my-name h2 {
+        padding-top: 10px;
+    }
+
+    .block-gray img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .about-me {
+        font-size: 16px;
+    }
+
+    .my-skills {
+        font-size: 16px;
+    }
+
+    code {
+        font-size: 14px;
+        height: 140px;
+        padding: 10px;
+    }
+
+    .courses {
+        font-size: 16px;
+        height: 400px;
+    }
+
+    .courses img {
+        height: 300px;
+        width: 200px;
+    }
+
+    .contact-languages {
+        font-size: 18px;
+    }
+
+    footer {
+        height: 80px;
+        padding-top: 8px;
+    }
+
+    footer .rsschool-logo img{
+        width: 80px;
+    }
+
+    footer .my-git-link img{
+        height: 70px;
+        width: 70px;
+    }
+
+    .footer-items p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .all-certificates {
+        height: 280px;
+    }
+    
+    .certificate {
+        width: 200px;
+        height: 280px;
+    }
+
+    .project-link {
+        width: 280px;
+        height: 200px;
+        margin-top: 16px;
+    }
+    
+    .project-link a {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .about-project {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .projects-link-name {
+        opacity: 1;
+        background-color: rgba(201, 201, 201, 0.7);
+    }
+}
