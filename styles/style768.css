@@ -1,0 +1,126 @@
+@media screen and (max-width: 768px) and (min-width: 421px) {
+    a.project:hover {
+        animation: none;
+    }
+
+    .center {
+        max-width: 420px;
+    }
+
+    .block-gray, .block-light-gray {
+        padding: 18px 28px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    main {
+        padding-top: 0px;
+    }
+
+    .main-block {
+        height: 140px;
+    }
+
+    h1 {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+
+    .my-name h2 {
+        padding-top: 8px;
+    }
+
+    .block-gray img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .about-me {
+        font-size: 12px;
+    }
+
+    .my-skills {
+        font-size: 12px;
+    }
+
+    code {
+        font-size: 10px;
+        height: 100px;
+        padding: 6px;
+        margin-left: 0;
+    }
+
+    .courses {
+        font-size: 10px;
+        height: 260px;
+
+    }
+
+    .courses img {
+        height: 200px;
+        width: 120px;
+    }
+
+    .contact-languages {
+        font-size: 12px;
+    }
+
+    .contact-languages ul li {
+        padding-top: 5px;
+    }
+
+    footer {
+        height: 60px;
+        padding-top: 6px;
+    }
+
+    footer .rsschool-logo img{
+        width: 60px;
+    }
+
+    footer .my-git-link img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer-items p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .all-certificates {
+        height: 220px;
+    }
+    
+    .certificate {
+        width: 140px;
+        height: 220px;
+    }
+
+    .project-link {
+        width: 240px;
+        height: 160px;
+        margin-top: 14px;
+    }
+    
+    .project-link a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .about-project {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .projects-link-name {
+        opacity: 1;
+        background-color: rgba(201, 201, 201, 0.7);
+    }
+}
